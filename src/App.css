@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.wrapper {
+  background-color: rgb(58, 30, 30);
+  border-radius: 1.25rem;
+  border: 0.125rem solid #fff;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.625rem;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Comic+Neue', serif;
+  font-size: 3.25rem;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.counter-text {
+  font-family: 'Comic+Neue', serif;
+  font-size: 4.375rem;
+}
+
+#green {
+  color: green;
+}
+
+#red {
+  color: red;
+}
+
+#blue {
+  color: blue;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 1.875rem;
+}
